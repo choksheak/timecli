@@ -1,0 +1,34 @@
+{
+  "name": "timecli",
+  "version": "1.0.0",
+  "description": "Prefix to a CLI command to print out the time taken.",
+  "main": "index.js",
+  "bin": {
+    "timecli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/choksheak/timecli"
+  },
+  "homepage": "https://github.com/choksheak/timecli",
+  "keywords": [
+    "command",
+    "time",
+    "timeit",
+    "timer",
+    "timestamp",
+    "cli",
+    "stream"
+  ],
+  "scripts": {
+    "test": "node index.js node test.js"
+  },
+  "author": {
+    "name": "ChokSheak Lau",
+    "email": "choksheak@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "kleur": "^4.1.3"
+  }
+}
