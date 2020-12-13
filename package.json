@@ -1,5 +1,5 @@
 {
-  "name": "timecli",
+  "name": "@choksheak/timecli",
   "version": "1.0.0",
   "description": "Prefix to a CLI command to print out the time taken.",
   "main": "index.js",
