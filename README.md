@@ -10,7 +10,7 @@ to your package. The execution time overhead to your script is likely less than
 Most likely you will need this for local development only.
 
 ```
-npm i -D timecli
+npm i -D @choksheak/timecli
 ```
 
 ## Why do you need this?
