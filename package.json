@@ -29,6 +29,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "kleur": "^4.1.3"
+    "cross-spawn": "^7.0.3",
+    "kleur": "^4.1.3",
+    "npm-run-path": "^4.0.1"
   }
 }

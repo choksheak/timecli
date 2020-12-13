@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const spawn = require("child_process").spawn;
+const spawn = require("cross-spawn");
+const npmRunPath = require('npm-run-path');
 const colors = require("kleur/colors");
 
 const prefix = colors.dim("[timecli]") + " ";
@@ -26,6 +27,11 @@ const runCommand = async args => {
 
     const exitCode = await new Promise(resolve => {
         const childProcess = spawn(args[0], args.slice(1), {
+            env: npmRunPath.env({
+                env: process.env,
+                cwd: process.cwd(),
+                execPath: process.execPath
+            }),
             stdio: "inherit"
         });
 
