@@ -3,14 +3,14 @@
 A super tiny and simple CLI utility to time the execution of another CLI command.
 Written in Javascript to minimize the number of dependencies (e.g. Golang, Rust etc.)
 to your package. The execution time overhead to your script is likely less than
-0.1 seconds, which should be neglible in most cases.
+0.1 seconds, which should be negligible in most cases.
 
 ## How to install
 
 Most likely you will need this for local development only.
 
 ```
-npm i -D timecli
+npm i -D @choksheak/timecli
 ```
 
 ## Why do you need this?
@@ -60,6 +60,10 @@ Some reasons why you want to install this package:
 
 [timecli] Took 1m 12s (72.517s). [Exit code = 0]
 ```
+
+## Related tool
+
+If you want a native CLI tool that does pretty much the same thing, you can download timeit from https://github.com/choksheak/timeit which is written in Golang.
 
 ## Enjoy!
 
